@@ -1,0 +1,17 @@
+{
+  "name": "car-website",
+  "version": "1.0.0",
+  "description": "Nginx Crash Course",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev" : "nodemon server.js"
+  },
+  "author": "Gideon_Babalola",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9"
+  }
+}
